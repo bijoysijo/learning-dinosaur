@@ -10,6 +10,8 @@ gem 'webpacker', '~> 4.0'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.2', require: false
+gem 'devise'
+gem "haml-rails", "~> 2.0"
 
 group :development, :test do
   gem 'pry'
