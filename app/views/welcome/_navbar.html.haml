@@ -1,0 +1,23 @@
+%nav#scanfcode.navbar
+  .container-fluid
+    .navbar-header
+      %button#toogle-button.navbar-toggle{"data-target" => "#myNavbar", "data-toggle" => "collapse", :type => "button"}
+        %span.glyphicon.glyphicon-menu-hamburger
+      %a#logo.navbar-brand{:href => "#"} Scanfcode
+    #myNavbar.collapse.navbar-collapse
+      %ul#link.nav.navbar-nav.navbar-right
+        %li#first-link.dropdown
+          %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"}
+            More
+            %span.caret
+          %ul.dropdown-menu
+            %li
+              %a{:href => "#"} Page 1-1
+            %li
+              %a{:href => "#"} Page 1-2
+            %li
+              %a{:href => "#"} Page 1-3
+        %li
+          %a{:href => "#"} Sign In
+        %li#button-link
+          %a{:href => "#"} Sign Up
